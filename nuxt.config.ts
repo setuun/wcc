@@ -38,7 +38,7 @@ export default defineNuxtConfig({
   ],
 
   // plugins
-  plugins: ['~/plugins/navbar.ts'],
+  plugins: [],
 
   // build
   build: {
@@ -84,7 +84,7 @@ export default defineNuxtConfig({
     vueI18n: {
       locale: 'en',
       fallbackLocale: 'en',
-      availableLocales: ['en', 'id', 'ja'],
+      availableLocales: ['en'],
     },
   },
 

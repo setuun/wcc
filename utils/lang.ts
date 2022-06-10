@@ -44,7 +44,7 @@ export function LanguageManager() {
 
   // state
   const localeSetting = useState<string>('locale.setting', () =>
-    getUserLocale()
+    getUserLocale(),
   )
 
   // watchers
